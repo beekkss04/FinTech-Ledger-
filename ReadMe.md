@@ -31,6 +31,21 @@ Design a FinTech Ledger System that manages digital wallet transactions using Da
 | Max Approvals  | Greedy         |
 
 ---
+## Architecture
+
+User → Queue → Processing Engine
+     → Stack
+     → HashMap
+     → Graph
+     
+---
+
+## Execution Steps
+
+g++ -std=c++17 FinTechLedger.cpp -o FinTechLedger
+./FinTechLedger
+
+---
 
 ## Extra Features
 
